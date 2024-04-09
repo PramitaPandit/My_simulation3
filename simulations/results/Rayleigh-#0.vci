@@ -1,0 +1,41 @@
+file 17280 1711734577                                           
+version 3
+run Rayleigh-0-20240329-05:20:42-1208475
+attr configname Rayleigh
+attr datetime 20240329-05:20:42
+attr datetimef 20240329-052042
+attr experiment Rayleigh
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network my_simulation3.simulations.My_simulation3_network
+attr processid 1208475
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config image-path ../../../omnetpp-6.0.2/samples/inet4.5/images
+config **.RayleighChannel.alpha 2
+config **.RayleighChannel.systemLoss 0dB
+config network my_simulation3.simulations.My_simulation3_network
+config *.OBN.distance 100cm
+config *.Hub_1.distance 50cm
+config *.Hub_2.distance 70cm
+config *.Hub_3.distance 90cm
+config *.Node_11.distance 20cm
+config *.Node_12.distance 40cm
+config *.Node_21.distance 60cm
+config *.Node_22.distance 80cm
+config *.Node_31.distance 100cm
+config *.Node_32.distance 120cm
+
+vector 0 My_simulation3_network.Hub_1 PredictionError ETV
+vector 1 My_simulation3_network.Hub_2 PredictionError ETV
+vector 2 My_simulation3_network.Hub_3 PredictionError ETV
+0	1138 5398 1 280 0 0.01 202 5.3096233479653e-310 112.54707336426 8841.6894264221 540250.46348561
+1	6536 5380 2 480 0 0.01 201 5.3096233479653e-310 127.81456756592 8853.5732688904 546333.93342775
+2	11916 5363 3 680 0 0.01 201 5.3096233479653e-310 676.91357421875 8342.1895403862 1741210.9536103
+
